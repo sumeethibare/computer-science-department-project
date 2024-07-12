@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.btnanim {
+    @apply hover:scale-110 lg:hover:-rotate-1 hover:duration-500 transition-all duration-300 hover:shadow-2xl
+}
