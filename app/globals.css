@@ -3,5 +3,5 @@
 @tailwind utilities;
 
 .btnanim {
-    @apply hover:scale-110 lg:hover:-rotate-1 hover:duration-500 transition-all duration-300 hover:shadow-2xl
+    @apply hover:scale-105 lg:hover:-rotate-1 hover:duration-300 transition-all duration-300 hover:shadow-2xl
 }
