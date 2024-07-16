@@ -10,11 +10,14 @@
   },
   "dependencies": {
     "@heroicons/react": "^2.1.5",
+    "alpinejs": "^3.14.1",
     "heroicons": "^2.1.5",
     "next": "14.2.5",
     "punycode": "^2.3.1",
     "react": "^18",
-    "react-dom": "^18"
+    "react-dom": "^18",
+    "react-icons": "^5.2.1",
+    "react-social-icons": "^6.16.0"
   },
   "devDependencies": {
     "daisyui": "^4.12.10",

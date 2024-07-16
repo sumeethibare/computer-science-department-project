@@ -1,5 +1,6 @@
 import About from '@/components/HomePage/About'
 import Impress from '@/components/HomePage/Impress'
+import Staff from '@/components/HomePage/Staff'
 import React from 'react'
 
 function page() {
@@ -7,6 +8,7 @@ function page() {
     <>
       <Impress />
       <About />
+      <Staff />
     </>
   )
 }
