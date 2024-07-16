@@ -1,6 +1,6 @@
 "use client";
 import React from 'react';
-import { ComputerDesktopIcon, EllipsisHorizontalIcon } from '@heroicons/react/24/solid';
+import { ArrowRightIcon, ComputerDesktopIcon } from '@heroicons/react/24/solid';
 import menuData from './menuData';
 
 function Navbar() {
@@ -13,17 +13,22 @@ function Navbar() {
 
     return (
         <>
-            <label htmlFor="Slider" className="btn btn-circle btn-ghost drawer-button float-right absolute lg:right-10 lg:top-10 right-4 top-4 btnanim">
-                <ComputerDesktopIcon className="size-6" />
+            <label htmlFor="Slider" className="btn btn-circle btn-ghost drawer-button float-right fixed lg:right-10 lg:top-16 right-2 top-2 btnanim z-50">
+                <ComputerDesktopIcon className="lg:size-6 size-5" />
             </label>
 
             <div className="drawer">
                 <input id="Slider" type="checkbox" className="drawer-toggle" />
-                <div className="drawer-side">
+                <div className="drawer-side z-40">
                     <label htmlFor="Slider" aria-label="close sidebar" className="drawer-overlay"></label>
-                    <ul className="menu bg-zinc-950 min-h-full lg:w-80 w-full p-4" onClick={closeSidebar}>
+                    <ul className="menu bg-zinc-200 min-h-full lg:w-80 w-full p-4" onClick={closeSidebar}>
                         {menuData.map((item, index) => (
-                            <li className='text-2xl tracking-tight text-zinc-200' key={index}><a href={item.href} onClick={closeSidebar}>{item.label}</a></li>
+                            <li key={index} className="group text-2xl tracking-tight text-zinc-700 hover:font-semibold transition-all duration-300">
+                                <a href={item.href} onClick={closeSidebar} className="flex items-center">
+                                    {item.label}
+                                    <ArrowRightIcon className="ml-2 size-3 text-zinc-400 group-hover:text-zinc-950 transition-opacity duration-300 opacity-0 group-hover:opacity-100" />
+                                </a>
+                            </li>
                         ))}
                     </ul>
                 </div>
