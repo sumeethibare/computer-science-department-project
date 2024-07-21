@@ -13,8 +13,8 @@ function Navbar() {
 
     return (
         <>
-            <label htmlFor="Slider" className="btn btn-circle btn-ghost drawer-button float-right fixed lg:right-10 lg:top-16 right-2 top-2 btnanim z-50">
-                <ComputerDesktopIcon className="lg:size-6 size-5" />
+            <label htmlFor="Slider" className="btn btn-circle btn-ghost drawer-button float-right fixed lg:right-10 lg:top-16 right-2 top-2 btnanim z-50 bg-white hover:text-white">
+                <ComputerDesktopIcon className="lg:size-7 size-5" />
             </label>
 
             <div className="drawer">

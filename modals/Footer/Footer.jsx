@@ -5,7 +5,7 @@ import Logo from './logo.webp'
 
 const Footer = ({ contact, socialLinks, contentLink1, contentLink2, subsidiaries }) => {
     return (
-        <footer className="bg-white lg:grid lg:grid-cols-5">
+        <footer className="bg-white lg:grid lg:grid-cols-5 py-20">
             <div className="relative block h-32 lg:col-span-2 lg:h-full">
                 <Image
                     src={Logo}
