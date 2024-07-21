@@ -1,6 +1,5 @@
 import React from 'react';
 import Image from 'next/image';
-
 const importAll = (r) => {
     return r.keys().map((path) => {
         const fullName = path.replace('./', '');
