@@ -31,7 +31,7 @@ function Clips() {
                             </div>
 
                             <div className="mt-3 flex items-center justify-between lg:text-zinc-400 lg:group-hover:text-zinc-950 text-zinc-950 text-xl transition-all duration-300">
-                                <div className='ml-2'>{image.name}</div>
+                                {/* <div className='ml-2'>{image.name}</div> */}
                             </div>
                         </div>
                     ))}

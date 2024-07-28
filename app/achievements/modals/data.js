@@ -1,12 +1,75 @@
 const student = [
     {
-        name: 'abhi',
-        event: 'further',
-        position: '1st',
-        image:
-            'https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
-        competition: 'race robo',
+        name: 'abhishek',
+        event: 'short film',
+        position: '3rd',
+        image: '',
+        competition: 'yukti',
     },
+    {
+        name: 'Sumeet',
+        event: 'iit indore',
+        position: '1st',
+        image: '',
+        competition: 'robosoccer',
+    },
+    {
+        name: 'sanni',
+        event: 'iit indore',
+        position: '1st',
+        image: '',
+        competition: 'robosoccer',
+    },
+    {
+        name: 'vinay',
+        event: 'iit indore',
+        position: '1st',
+        image: '',
+        competition: 'robosoccer',
+    },
+    {
+        name: 'somesh',
+        event: 'iit indore',
+        position: '1st',
+        image: '',
+        competition: 'robosoccer',
+    },
+    {
+        name: 'saad',
+        event: 'iit indore',
+        position: '1st',
+        image: '',
+        competition: 'robosoccer',
+    },
+    {
+        name: 'abdul khadar',
+        event: 'iit indore',
+        position: '1st',
+        image: '',
+        competition: 'robosoccer',
+    },
+    {
+        name: 'somesh',
+        event: 'yuva utsav',
+        position: '1st',
+        image: '',
+        competition: 'photography',
+    },
+    {
+        name: 'sanni',
+        event: 'yuva utsav',
+        position: '1st',
+        image: '',
+        competition: 'speech',
+    },
+    {
+        name: 'vinay',
+        event: 'yuva utsav',
+        position: '1st',
+        image: '',
+        competition: 'chess',
+    },
+
 ]
 
 export default student

@@ -1,36 +1,36 @@
 "use client";
 import React from 'react';
-
+import s1 from '/public/staff/1.jpg'
+import s2 from '/public/staff/2.jpg'
+import s3 from '/public/staff/3.jpg'
+import s4 from '/public/staff/4.jpg'
+import s5 from '/public/staff/5.jpg'
+import s6 from '/public/staff/6.jpg'
+import Image from 'next/image';
 const users = [
     {
-        id: 1,
-        name: 'Alice',
-        image: 'https://rare-gallery.com/thumbs/5408546-woman-female-girl-photographer-camera-beanie-pine-holding-hand-jean-jacket-red-film-caucasian-blonde-photography-nature-exterior-hat-vintage-contax-creative-commons-images.jpg'
+        name: 'chandrakala v patil',
+        image: s1,
     },
     {
-        id: 2,
-        name: 'Bob',
-        image: 'https://rare-gallery.com/thumbs/5408546-woman-female-girl-photographer-camera-beanie-pine-holding-hand-jean-jacket-red-film-caucasian-blonde-photography-nature-exterior-hat-vintage-contax-creative-commons-images.jpg'
+        name: 'shivlingama',
+        image: s2,
     },
     {
-        id: 3,
-        name: 'Charlie',
-        image: 'https://rare-gallery.com/thumbs/5408546-woman-female-girl-photographer-camera-beanie-pine-holding-hand-jean-jacket-red-film-caucasian-blonde-photography-nature-exterior-hat-vintage-contax-creative-commons-images.jpg'
+        name: 'priyadarshini',
+        image: s3,
     },
     {
-        id: 4,
-        name: 'Charlie',
-        image: 'https://rare-gallery.com/thumbs/5408546-woman-female-girl-photographer-camera-beanie-pine-holding-hand-jean-jacket-red-film-caucasian-blonde-photography-nature-exterior-hat-vintage-contax-creative-commons-images.jpg'
+        name: 'shruti rampure',
+        image: s4,
     },
     {
-        id: 5,
-        name: 'Charlie',
-        image: 'https://rare-gallery.com/thumbs/5408546-woman-female-girl-photographer-camera-beanie-pine-holding-hand-jean-jacket-red-film-caucasian-blonde-photography-nature-exterior-hat-vintage-contax-creative-commons-images.jpg'
+        name: 'shweta',
+        image: s5,
     },
     {
-        id: 6,
-        name: 'Charlie',
-        image: 'https://rare-gallery.com/thumbs/5408546-woman-female-girl-photographer-camera-beanie-pine-holding-hand-jean-jacket-red-film-caucasian-blonde-photography-nature-exterior-hat-vintage-contax-creative-commons-images.jpg'
+        name: '',
+        image: s6,
     },
 ];
 
@@ -42,7 +42,7 @@ const Staff = () => {
                 <div className="grid lg:grid-cols-3">
                     {users.map(user => (
                         <div className="container p-2 relative rounded-xl" key={user.id}>
-                            <img src={user.image} alt={user.name} className="image block w-full h-auto rounded-xl" />
+                            <Image src={user.image} alt={user.name} className="image block w-full h-80 rounded-xl" />
                             <div className="overlay absolute bottom-2 left-0 right-0 backdrop-blur-3xl overflow-hidden w-full h-0 transition-height duration-300 ease-in-out rounded-b-xl">
                                 <div className="text text-white text-lg absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center">
                                     {user.name}

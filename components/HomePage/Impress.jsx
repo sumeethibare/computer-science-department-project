@@ -40,13 +40,13 @@ function Impress() {
                         </video>
 
                         <div className="px-8 sm:items-start sm:justify-center sm:px-0 sm:space-x-5 space-x-2 sm:flex mt-9">
-                            <a href="#"
+                            <a href="https://sitgulbarga.org"
                                 className="mb-2 inline-flex items-center justify-center px-8 py-3 text-lg font-medium btnanim hover:font-semibold text-gray-900 hover:text-white transition-all duration-200 bg-gray-200 sm:w-auto rounded-xl hover:bg-zinc-950"
-                                role="button">LinkedIn</a>
-                            <a href="#"
+                                role="button">SIT</a>
+                            <a href="https://shettygroupofinstitutions.org"
                                 className="mb-2 inline-flex items-center justify-center px-8 py-3 text-lg font-medium btnanim hover:font-semibold text-gray-900 hover:text-white transition-all duration-200 bg-gray-200 sm:w-auto rounded-xl hover:bg-zinc-950"
                                 role="button">SGI</a>
-                            <a href="#"
+                            <a href="https://forms.gle/JwLton1CngUeEBrX7"
                                 className="mb-2 inline-flex items-center justify-center px-8 py-3 text-lg font-medium btnanim hover:font-semibold text-gray-900 hover:text-white transition-all duration-200 bg-gray-200 sm:w-auto rounded-xl hover:bg-zinc-950"
                                 role="button">Enroll Now</a>
 
@@ -61,7 +61,7 @@ function Impress() {
                             <video
                                 className="w-full lg:rounded-xl lg:h-screen h-[170px]"
                                 autoPlay
-                                muted
+                                controls
                                 loop
                                 ref={videoRef}
                                 onClick={handleVideoClick}
